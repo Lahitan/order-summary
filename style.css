@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+  background-color:  hsl(225, 100%, 94%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.container{
+  max-width: 20rem;
+  background-color:hsl(0, 0%, 100%) ;
+  border-radius: 0.8rem;
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+img{
+  max-width: 100%;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+
+.description{
+  padding: 1rem 1.6rem;
+  
+}
+
+h2{
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0.5rem 0;
+  color: hsl(223, 47%, 23%);
+  
+}
+
+.order-summary{
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.order{
+  display: flex;
+  margin: 0.5rem 0;
+  gap: 1rem;
+  background-color: hsla(225, 100%, 94%, 0.3);
+  border-radius: 0.5rem;
+ 
+}
+
+.icon-image{
+  max-width: 3.5rem;
+  padding: 0.8rem 0 0.8rem 1rem;
+}
+
+.annual-plan{
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  padding: 0.8rem 0 0.3rem 0;
+}
+
+.price{
+  font-size: 0.8rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.change{
+  font-size: 0.75rem;
+  color: hsl(245, 75%, 52%)  ;
+  font-weight: 900;
+  text-decoration: underline;
+  padding: 1.7rem 0 1rem 2rem;
+  margin-left: 1.5rem;
+}
+
+.change:hover{
+  color:  hsl(245, 64%, 60%) ;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s ;
+}
+
+.btn{
+  margin: 1rem 0;
+}
+
+.btn-1{
+  display: block;
+  font-size: 0.7rem;
+  margin: 0  auto;
+  background-color: hsl(245, 75%, 52%);
+  padding: 0.5rem 0 0.5rem;
+  border: 1px solid hsl(245, 75%, 52%);
+  border-radius: 0.5rem;
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  font-weight: 700;
+  box-shadow: 0px 10px 3px hsla(223, 47%, 23%, 0.1);
+}
+
+.btn-1:hover{
+  background-color: hsl(245, 64%, 60%);
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.btn-2{
+  display: block;
+  border: none;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.btn-2:hover{
+  color:hsl(227, 14%, 13%) ;
+  cursor: pointer;
+}
